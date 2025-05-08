@@ -29,7 +29,7 @@ The extension consists of the following files:
 ## Important Notes
 
 1. You'll need to set up a tracking server to handle the tracking pixel requests
-2. Replace `https://your-tracking-server.com/track.png` in `content.js` with your actual tracking server URL
+2. Replace `http://localhost:3000/track.png` in `content.js` with your actual tracking server URL
 3. The extension currently supports Gmail, but can be extended to support other email providers
 
 ## Security Considerations

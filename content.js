@@ -2,7 +2,7 @@
 function addTrackingPixel(emailBody) {
   const trackingPixel = document.createElement('img');
   trackingPixel.style.display = 'none';
-  trackingPixel.src = 'https://your-tracking-server.com/track.png';
+  trackingPixel.src = 'http://localhost:3000/track.png';
   emailBody.appendChild(trackingPixel);
 }
 
